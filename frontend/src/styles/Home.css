@@ -1,0 +1,111 @@
+/* ===== HOME PAGE STYLING ===== */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(
+    90deg,
+    rgba(131, 222, 247, 0.8),
+    rgba(203, 242, 250, 0.8),
+    rgba(218, 248, 248, 0.8)
+  );
+  color: #04506b;
+  overflow-x: hidden;
+}
+
+/* ===== NAVBAR ===== */
+.custom-navbar {
+  transition: all 0.4s ease-in-out;
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.navbar.scrolled {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.navbar-brand {
+  font-size: 1.4rem;
+  color: #33a9dc !important;
+}
+
+.nav-link {
+  font-weight: 500;
+  color: #04506b !important;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #33a9dc !important;
+  transform: translateY(-2px);
+}
+
+/* ===== HERO SECTION ===== */
+.home-section {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(210, 245, 255, 0.8),
+    rgba(225, 250, 255, 0.8),
+    rgba(240, 255, 255, 0.8)
+  );
+  padding: 0 1rem;
+  color: #04506b;
+}
+
+.text-gradient {
+  background: linear-gradient(90deg, #5ac8fa, #90e0ef);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.lead {
+  font-size: 1.2rem;
+  color: #057ea5;
+}
+
+/* ===== BUTTONS ===== */
+.hero-buttons .btn {
+  padding: 0.7rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background: #5ac8fa;
+  border: none;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #4cc3f7;
+  box-shadow: 0 0 12px rgba(80, 200, 250, 0.4);
+}
+
+.btn-outline-light {
+  color: #33a9dc;
+  border: 2px solid #5ac8fa;
+}
+
+.btn-outline-light:hover {
+  background: rgba(90, 200, 250, 0.15);
+  color: #04506b;
+  box-shadow: 0 0 10px rgba(90, 200, 250, 0.3);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 2rem;
+  }
+  .hero-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

@@ -1,0 +1,24 @@
+/* ===== PROJECTS PAGE STYLING ===== */
+
+.projects-section {
+  min-height: 100vh;
+  background: linear-gradient(
+    135deg,
+    rgba(173, 232, 244, 0.8),
+    rgba(186, 243, 255, 0.8),
+    rgba(220, 251, 255, 0.8)
+  );
+  padding-top: 120px; /* Prevent overlap with navbar */
+  color: #001d3d;
+}
+
+.project-card {
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+}

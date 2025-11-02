@@ -1,0 +1,102 @@
+/* 🌤 Light Sky–Sea About Section */
+.about-section {
+  background: linear-gradient(135deg, #dff6ff, #bde0fe, #a2d2ff);
+  color: #023047;
+  min-height: 100vh;
+  padding: 100px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Glass Card — Light & Soft */
+.about-card {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 20px;
+  padding: 40px;
+  max-width: 700px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0, 119, 182, 0.15);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+/* Hover — Gentle lift + glow */
+.about-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 28px rgba(0, 119, 182, 0.25);
+}
+
+/* Profile Image 
+.about-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+  border: 3px solid #0077b6;
+  box-shadow: 0 0 18px rgba(0, 180, 216, 0.25);
+}
+*/
+
+
+/* Gradient Text */
+.text-gradient {
+  background: linear-gradient(90deg, #0077b6, #00b4d8, #48cae4);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle Highlight */
+.text-highlight {
+  color: #0077b6;
+  font-weight: 600;
+}
+
+/* Body Text */
+.about-text {
+  font-size: 1.1rem;
+  color: #03425a;
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.about-buttons .btn-3d {
+  border-radius: 50px;
+  padding: 10px 22px;
+  font-weight: 500;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.3s ease;
+  color: #fff;
+  background: linear-gradient(90deg, #00b4d8, #48cae4);
+  border: none;
+}
+
+.about-buttons .btn-3d:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0, 180, 216, 0.3);
+  background: linear-gradient(90deg, #0096c7, #00b4d8);
+}
+
+/* Outline Light Button Hover Fix */
+.btn-outline-light:hover {
+  background: #00b4d8;
+  color: #fff;
+  border-color: #00b4d8;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-card {
+    padding: 30px;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .about-img {
+    width: 120px;
+    height: 120px;
+  }
+}
