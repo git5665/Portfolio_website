@@ -41,10 +41,12 @@ export default function Projects() {
               <div className="project-card p-4 shadow rounded-3">
                 <h4 className="fw-bold mb-2">Portfolio Website</h4>
                 <p className="text-muted">
-                  A responsive portfolio built using React and Bootstrap to showcase my work.
+                  A responsive and modern portfolio website built using React and Bootstrap to showcase my skills,
+                   experience, and projects. It delivers a clean UI, 
+                  smooth navigation, and optimized performance across all devices.
                 </p>
                 <a
-                  href="https://github.com/yourusername/portfolio"
+                  href="https://github.com/imvipull9/Portfolio_website"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="btn btn-outline-primary mt-2"
